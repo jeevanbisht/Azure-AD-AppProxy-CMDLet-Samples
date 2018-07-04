@@ -1,4 +1,20 @@
-﻿
+﻿<# 
+ 
+.SYNOPSIS
+	FomrsAppPublishSample.ps1 is a Windows PowerShell script to create an Appproxy App using powershell which uses Anonynous/Forms Based Authenticaion
+.DESCRIPTION
+	Version: 1.0.0
+	FomrsAppPublishSample.ps1 is a Windows PowerShell script to publish the Internal Web Application running Anonynous/Forms Based Authneticaiton and pulish using Powershell
+    You can simply update the values and publish the app and assign appropraite user/group access permissions.
+    
+.DISCLAIMER
+	THIS CODE AND INFORMATION IS PROVIDED "AS IS" WITHOUT WARRANTY OF
+	ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING BUT NOT LIMITED TO
+	THE IMPLIED WARRANTIES OF MERCHANTABILITY AND/OR FITNESS FOR A
+	PARTICULAR PURPOSE.
+#> 
+
+
 ##FormBasedAuth
 $displayName="ContosoExpense"
 $connectorGroupName="prodapps"
