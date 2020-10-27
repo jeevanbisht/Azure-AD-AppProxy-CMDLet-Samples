@@ -7,11 +7,11 @@
             "type": "String"
         },
         "userAssignedIdentities_ManagedIdentity1_externalid": {
-            "defaultValue": "/subscriptions/b69f13a6-6746-4378-b894-d21ca32b206a/resourceGroups/demostarAutoPilot/providers/Microsoft.ManagedIdentity/userAssignedIdentities/ManagedIdentity1",
+            "defaultValue": "/subscriptions/<Azure-subscription-ID>/resourceGroups/<Azure-resource-group-name>providers/Microsoft.ManagedIdentity/userAssignedIdentities/ManagedIdentity1",
             "type": "String"
         },
         "connections_teams_externalid": {
-            "defaultValue": "/subscriptions/b69f13a6-6746-4378-b894-d21ca32b206a/resourceGroups/demostarAutoPilot/providers/Microsoft.Web/connections/teams",
+            "defaultValue": "/subscriptions/<Azure-subscription-ID>/resourceGroups/<Azure-resource-group-name>providers/Microsoft.Web/connections/teams",
             "type": "String"
         }
     },
@@ -25,7 +25,7 @@
             "identity": {
                 "type": "UserAssigned",
                 "userAssignedIdentities": {
-                    "/subscriptions/b69f13a6-6746-4378-b894-d21ca32b206a/resourceGroups/demostarAutoPilot/providers/Microsoft.ManagedIdentity/userAssignedIdentities/ManagedIdentity1": {
+                    "/subscriptions/<Azure-subscription-ID>/resourceGroups/<Azure-resource-group-name>providers/Microsoft.ManagedIdentity/userAssignedIdentities/ManagedIdentity1": {
                         "principalId": "0ac77c57-ade6-46bb-9378-45cd6fadd600",
                         "clientId": "31fbfc8a-3b9d-4a3b-83dc-134f7ce81d12"
                     }
